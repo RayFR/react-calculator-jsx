@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#calculator {
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#input-box {
+  width: 400px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.calc-row {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-row button {
+  margin: 3px;
+  width: 100px;
+  height: 50px;
+}
